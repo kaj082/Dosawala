@@ -1,0 +1,101 @@
+.about{
+    background-color: #59B54B;
+    width: 100%;
+    height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+.about-text{
+font-family: Poppins;
+font-size: 72px;
+font-weight: 700;
+line-height: 90px;
+letter-spacing: 0em;
+text-align: center;
+color:#FFFFFF;
+width:80%;
+margin-top:65px ;
+
+}
+.about-small-text{
+color: #F9F9F9;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+width: 100%;
+
+letter-spacing: 0em;
+text-align: center;
+
+    
+}
+.see-menu{
+    all: unset;
+
+}
+.btn-about{
+    all: unset;
+    border: 2px solid #FFFFFF;
+    height: 44px;
+    width:222px ;
+    border-radius: 52px;
+    background-color: rgb(89,181,75);
+    color:#FFFFFF;
+    margin-top:65px ;
+    display: block;
+    z-index: 7;
+    cursor: pointer;
+    height: 44px;
+    position: relative;
+    
+}
+.btn-about:hover{
+ color:rgb(102, 174, 91);
+ background-color: #FFFFFF;
+}
+
+
+
+
+.back-img{
+   width: 100%; 
+   position: absolute;
+    bottom: 0px;
+    z-index: 0;
+    
+}
+.dosa-img{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   position: absolute;
+   bottom: -150px;
+   z-index: 1;
+}
+.image-1{
+    
+}
+.image-2{
+    
+}
+
+
+
+@media screen and (max-width:1095px)
+{
+    .dosa_img{
+        display: none;
+    }
+    .image-1{
+        display: none;
+    }
+    .image-2{
+        display: none;
+    }
+    .about{
+        display: none;
+    }
+}

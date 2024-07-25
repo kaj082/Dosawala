@@ -1,0 +1,148 @@
+.about-contact-main{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.about-contact-content{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-evenly;
+    height: 300px;
+    /* padding-left: 5%; */
+
+}
+.about-contact-header{
+    font-family: Nunito;
+font-size: 32px;
+font-weight: 800;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: center;
+color:#1A750B ;
+}
+.contact-1-left{
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    align-items: center;
+    border: 1px solid white;
+    margin-bottom: 2%;
+    box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.1);
+border-radius: 2px;
+
+}
+.about-contact-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    min-width: 300px;
+
+     /* background-color: #ffffff;  */
+    /* margin-bottom: 12%; */
+    
+    /* background-color:green ; */
+}
+.contact-icon-1{
+    margin: 2% 6%;
+}
+.contact-1-text{
+    font-family: Nunito;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #195F0E;
+}
+.about-contact-final{
+    width: 50%;
+font-family: Nunito;
+font-size: 16px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #6F6F6F;
+min-width: 310px;
+
+}
+.about-contact-img{
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    
+}
+.final-img{
+    width: 80%;
+}
+@media screen  and (max-width:900px){
+    .about-contact-main{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20%;
+    }
+.about-contact-content{
+    width: 100%;
+    text-align: start;
+    align-items: center;
+    padding-left: 0;
+    margin-top: 4%;
+}
+
+.about-contact-header{
+    width: 70%;
+    min-width: 350px;
+    font-family: Nunito;
+font-size: 36px;
+font-weight: 800;
+line-height: 49px;
+letter-spacing: 0em;
+/* text-align: center; */
+
+}
+.about-contact-left{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding-left: 5%; */
+}
+.contact-1-left{
+    background-color: white;
+    width: 43%;
+    min-width: 300px;
+    margin-top: 20px;
+}
+.contact-icon-1{
+    margin: 2% 5%;
+}
+
+.about-contact-final{
+   width: 50%;
+   /* padding-left: 2%; */
+   padding-top: 20px;
+   /* padding-bottom: 30%;
+   padding-top: 20px; */
+   min-width: 325px;
+}
+.about-contact-img{
+    width: 100%;
+    /* padding-right: 20px; */
+}
+.final-img{
+    margin-top: 50px;
+    width: 100%;
+}
+.about-last-img{
+    width: 100%;
+    margin-top: 30%;
+}
+.about-review-img{
+    width: 90%;
+}
+}

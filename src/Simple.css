@@ -1,0 +1,28 @@
+/* .content{
+    
+    width: 100%;
+   
+    margin-top: 10%;
+}
+.slick-prev{
+    left:60px !important;
+}
+.slick-next{
+    right: 60px !important;
+}
+.slick-prev, .slick-next{
+   
+    width:90px !important;
+    height: 20px !important;
+    z-index: 2 !important;
+    top:50% !important;
+}
+.slick-prev::before, .slick-next::before{
+    color:green !important;
+}
+
+.image{
+    
+    display: inline !important;
+    object-fit: cover;
+} */

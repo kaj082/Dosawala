@@ -1,0 +1,128 @@
+.header{
+    background-color:rgb(32, 153, 32) ;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 120px;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+}
+.header_logo,.logo-link{
+   all: unset;
+    width: 32%;
+    height: 71px;
+    object-fit: contain;
+    /* margin-left: 5%; */
+    /* margin-right: 45%; */
+    
+   
+    
+}
+.logo-link:hover{
+   cursor: pointer;
+}
+.header__nav{
+    display: flex;
+    width:45%;
+    justify-content:end; 
+    /* padding-right: 18%; */
+ }
+ .header-text:hover{
+   cursor: pointer;
+   border-bottom:2px solid #D5FBDD;
+ }
+ .header-text,.header_link{
+   all: unset;
+
+    color:white;
+    justify-items: flex-end;
+    justify-content: space-between;
+    margin-right: 10%;
+    /* margin-left: 8%;
+    margin-top: 1%;*/
+    /* padding-left: 3%;
+    padding-right: 11%;  */
+    width:fit-content;
+    white-space: nowrap;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;    
+    letter-spacing: 0em;
+    text-align: left;
+    border-bottom: none ;
+
+
+ }
+ .cancel{
+    display: none;
+ }
+ .list{
+    display: none;
+ }
+ .menu{
+    width: 100%;
+    position: inherit;
+    display: none;
+ }
+
+
+
+
+
+ @media screen and (max-width:900px) {
+    
+    .header{
+        background-color:#E5E5E5 ;
+        display: flex;
+        justify-items: flex-end;
+        align-items: center;
+        position: sticky; 
+         top: 0; 
+        z-index: 100;
+        height: 120px;
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+    .header__nav{
+      display: none;
+    }
+    .cancel{
+    display: flex;
+    justify-items: flex-end;
+    justify-content: space-between;
+    padding-left: 0px;
+    /* padding-left: 80%;
+    padding-right: 2%;  */
+    width: 50%;
+    /* position: sticky;
+    z-index: 1; */
+    
+     }
+    .header-text{
+   display: none;
+
+    }
+    .header_logo{
+    margin-left: 2%; 
+     display: block;
+    }
+    .list{
+    display: block;
+    
+     margin-right: 50px;
+    
+     }
+     .menu{
+        width: 100%;
+        position: inherit;
+        
+        display: flex;
+        }
+    
+ }
+ 
